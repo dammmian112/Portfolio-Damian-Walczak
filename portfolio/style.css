@@ -34,6 +34,7 @@ nav {
   z-index: 1000;
 }
 
+
 nav .name h1 {
   color: #fff;
   font-size: 1.5rem;
@@ -55,6 +56,17 @@ nav .nav-links a {
 nav .nav-links a:hover {
   color: #ff1f53;
 }
+
+nav .nav-links .language-button{
+  color: #48bfe3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav .nav-links .language-button:hover{
+  color: #3c9fbd;
+}
+
 
 #hero {
   height: 100vh;
@@ -1500,6 +1512,8 @@ footer p {
 
   .czarne-cos {
     margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .about-cards {
@@ -1630,3 +1644,4 @@ footer p {
 .hamburger::after {
   top: 8px;
 }
+
